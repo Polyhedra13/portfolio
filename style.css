@@ -8,11 +8,13 @@ a {
     text-decoration: none;
 }
 
-.header {
+.container-header {
     margin: 20px 100px 150px 100px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.logo {
+.logo a {
     position: absolute;  
     font-size: 2rem;
     font-weight: bolder;
@@ -22,13 +24,9 @@ a {
 
 .nav-bar {
     display: flex;
-    justify-content: flex-end;
+    gap: 2rem;
     font-size: 1rem;
     font-weight: 900;
-}
-
-.nav-bar div {
-    margin: 0 1.5rem;
 }
 
 .im-text {
@@ -253,3 +251,4 @@ h1 {
 hr {
     border-color: black;
 }
+
